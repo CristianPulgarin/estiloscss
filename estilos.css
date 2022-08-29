@@ -17,3 +17,14 @@ p{
 
 
 }
+
+
+#titulo{
+    color: rgb(37, 37, 233);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+}
