@@ -1,5 +1,15 @@
+*{
+padding: 5px;
+margin: 0px;
+}
+
+
 h1{
+    font-size: 80px;
 color: rgb(30, 33, 243);
+text-align: center;
+border: 4px solid blue;
+background-image: url("fondo.jpg") ;
 
 }
 
@@ -8,7 +18,7 @@ color: rgb(30, 33, 243);
 h2{
 
     color: red;
-    font-size: 50px;
+    font-size: 40px;
     font-family: courier;
 }
 
@@ -22,16 +32,58 @@ p{
 
 
 #titulo{
-    color: rgb(37, 37, 233);
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 244, 11);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 70px;
+    text-align: center;
+    border: 5px solid rgb(251, 255, 0);
+    border-style:dotted;
+    
 }
 
 .parrafo{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
-
+ 
 .divimagen{
     color: aqua;
     border-top: 20px 10px;
+}
+
+
+#contenedor{
+    background-color: rgb(48, 51, 51);
+    color: blueviolet;
+}
+
+#item1 h2{
+    color: darkcyan;
+    background-color: deeppink;
+}
+
+#item2 h2{
+    color: deeppink;
+    background-color: darkcyan;
+    
+}
+
+
+#imagen img{
+
+   cursor: all-scroll;
+    width: 700px;
+    height: 500px;
+}
+
+
+#imagen img:hover{
+    width: 700px;
+    height: 550px;
+    text-decoration: dotted;
+}
+
+a:active{
+    align-items: left;
 }
